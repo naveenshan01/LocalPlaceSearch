@@ -58,6 +58,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22571CE7170170510096C62E /* App Delagete */ = {
+			isa = PBXGroup;
+			children = (
+				22EBF9B516AD1BE5003B1677 /* AppDelegate.h */,
+				22EBF9B616AD1BE5003B1677 /* AppDelegate.m */,
+			);
+			name = "App Delagete";
+			sourceTree = "<group>";
+		};
+		22571CE8170170630096C62E /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				22EBF9BE16AD1BE5003B1677 /* ViewController.h */,
+				22EBF9BF16AD1BE5003B1677 /* ViewController.m */,
+				22EBF9C116AD1BE5003B1677 /* ViewController_iPhone.xib */,
+				22EBF9C416AD1BE5003B1677 /* ViewController_iPad.xib */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 		22EBF99716AD1BE5003B1677 = {
 			isa = PBXGroup;
 			children = (
@@ -88,13 +108,9 @@
 		22EBF9AC16AD1BE5003B1677 /* LocalPlaceSearch */ = {
 			isa = PBXGroup;
 			children = (
+				22571CE7170170510096C62E /* App Delagete */,
+				22571CE8170170630096C62E /* View Controllers */,
 				22EBF9E216AD36D8003B1677 /* Google Location Service */,
-				22EBF9B516AD1BE5003B1677 /* AppDelegate.h */,
-				22EBF9B616AD1BE5003B1677 /* AppDelegate.m */,
-				22EBF9BE16AD1BE5003B1677 /* ViewController.h */,
-				22EBF9BF16AD1BE5003B1677 /* ViewController.m */,
-				22EBF9C116AD1BE5003B1677 /* ViewController_iPhone.xib */,
-				22EBF9C416AD1BE5003B1677 /* ViewController_iPad.xib */,
 				22EBF9AD16AD1BE5003B1677 /* Supporting Files */,
 			);
 			path = LocalPlaceSearch;
