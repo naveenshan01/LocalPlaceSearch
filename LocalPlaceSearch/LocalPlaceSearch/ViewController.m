@@ -42,8 +42,6 @@
 - (void)initView    {
     [self showSearchBar];
     [self showTableView];
-    
-//    [self fetchPlaceResult];
 }
 
 - (void)refreshView {
