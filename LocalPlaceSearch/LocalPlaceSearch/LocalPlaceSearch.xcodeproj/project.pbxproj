@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22EBF9A716AD1BE5003B1677 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22EBF9A616AD1BE5003B1677 /* UIKit.framework */; };
+		22EBF9A916AD1BE5003B1677 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22EBF9A816AD1BE5003B1677 /* Foundation.framework */; };
+		22EBF9AB16AD1BE5003B1677 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22EBF9AA16AD1BE5003B1677 /* CoreGraphics.framework */; };
+		22EBF9B116AD1BE5003B1677 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22EBF9AF16AD1BE5003B1677 /* InfoPlist.strings */; };
+		22EBF9B316AD1BE5003B1677 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EBF9B216AD1BE5003B1677 /* main.m */; };
+		22EBF9B716AD1BE5003B1677 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EBF9B616AD1BE5003B1677 /* AppDelegate.m */; };
+		22EBF9B916AD1BE5003B1677 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 22EBF9B816AD1BE5003B1677 /* Default.png */; };
+		22EBF9BB16AD1BE5003B1677 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22EBF9BA16AD1BE5003B1677 /* Default@2x.png */; };
+		22EBF9BD16AD1BE5003B1677 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22EBF9BC16AD1BE5003B1677 /* Default-568h@2x.png */; };
+		22EBF9C016AD1BE5003B1677 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EBF9BF16AD1BE5003B1677 /* ViewController.m */; };
+		22EBF9C316AD1BE5003B1677 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22EBF9C116AD1BE5003B1677 /* ViewController_iPhone.xib */; };
+		22EBF9C616AD1BE5003B1677 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22EBF9C416AD1BE5003B1677 /* ViewController_iPad.xib */; };
+		22EBF9E516AD36F6003B1677 /* GoogleLocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EBF9E416AD36F6003B1677 /* GoogleLocationService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22EBF9A216AD1BE5003B1677 /* LocalPlaceSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalPlaceSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22EBF9A616AD1BE5003B1677 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22EBF9A816AD1BE5003B1677 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22EBF9AA16AD1BE5003B1677 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22EBF9AE16AD1BE5003B1677 /* LocalPlaceSearch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocalPlaceSearch-Info.plist"; sourceTree = "<group>"; };
+		22EBF9B016AD1BE5003B1677 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22EBF9B216AD1BE5003B1677 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22EBF9B416AD1BE5003B1677 /* LocalPlaceSearch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LocalPlaceSearch-Prefix.pch"; sourceTree = "<group>"; };
+		22EBF9B516AD1BE5003B1677 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22EBF9B616AD1BE5003B1677 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22EBF9B816AD1BE5003B1677 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		22EBF9BA16AD1BE5003B1677 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		22EBF9BC16AD1BE5003B1677 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		22EBF9BE16AD1BE5003B1677 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		22EBF9BF16AD1BE5003B1677 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		22EBF9C216AD1BE5003B1677 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		22EBF9C516AD1BE5003B1677 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		22EBF9E316AD36F6003B1677 /* GoogleLocationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleLocationService.h; sourceTree = "<group>"; };
+		22EBF9E416AD36F6003B1677 /* GoogleLocationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleLocationService.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22EBF99F16AD1BE5003B1677 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22EBF9A716AD1BE5003B1677 /* UIKit.framework in Frameworks */,
+				22EBF9A916AD1BE5003B1677 /* Foundation.framework in Frameworks */,
+				22EBF9AB16AD1BE5003B1677 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22EBF99716AD1BE5003B1677 = {
+			isa = PBXGroup;
+			children = (
+				22EBF9AC16AD1BE5003B1677 /* LocalPlaceSearch */,
+				22EBF9A516AD1BE5003B1677 /* Frameworks */,
+				22EBF9A316AD1BE5003B1677 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22EBF9A316AD1BE5003B1677 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22EBF9A216AD1BE5003B1677 /* LocalPlaceSearch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22EBF9A516AD1BE5003B1677 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22EBF9A616AD1BE5003B1677 /* UIKit.framework */,
+				22EBF9A816AD1BE5003B1677 /* Foundation.framework */,
+				22EBF9AA16AD1BE5003B1677 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22EBF9AC16AD1BE5003B1677 /* LocalPlaceSearch */ = {
+			isa = PBXGroup;
+			children = (
+				22EBF9E216AD36D8003B1677 /* Google Location Service */,
+				22EBF9B516AD1BE5003B1677 /* AppDelegate.h */,
+				22EBF9B616AD1BE5003B1677 /* AppDelegate.m */,
+				22EBF9BE16AD1BE5003B1677 /* ViewController.h */,
+				22EBF9BF16AD1BE5003B1677 /* ViewController.m */,
+				22EBF9C116AD1BE5003B1677 /* ViewController_iPhone.xib */,
+				22EBF9C416AD1BE5003B1677 /* ViewController_iPad.xib */,
+				22EBF9AD16AD1BE5003B1677 /* Supporting Files */,
+			);
+			path = LocalPlaceSearch;
+			sourceTree = "<group>";
+		};
+		22EBF9AD16AD1BE5003B1677 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22EBF9AE16AD1BE5003B1677 /* LocalPlaceSearch-Info.plist */,
+				22EBF9AF16AD1BE5003B1677 /* InfoPlist.strings */,
+				22EBF9B216AD1BE5003B1677 /* main.m */,
+				22EBF9B416AD1BE5003B1677 /* LocalPlaceSearch-Prefix.pch */,
+				22EBF9B816AD1BE5003B1677 /* Default.png */,
+				22EBF9BA16AD1BE5003B1677 /* Default@2x.png */,
+				22EBF9BC16AD1BE5003B1677 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22EBF9E216AD36D8003B1677 /* Google Location Service */ = {
+			isa = PBXGroup;
+			children = (
+				22EBF9E316AD36F6003B1677 /* GoogleLocationService.h */,
+				22EBF9E416AD36F6003B1677 /* GoogleLocationService.m */,
+			);
+			path = "Google Location Service";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22EBF9A116AD1BE5003B1677 /* LocalPlaceSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22EBF9C916AD1BE5003B1677 /* Build configuration list for PBXNativeTarget "LocalPlaceSearch" */;
+			buildPhases = (
+				22EBF99E16AD1BE5003B1677 /* Sources */,
+				22EBF99F16AD1BE5003B1677 /* Frameworks */,
+				22EBF9A016AD1BE5003B1677 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocalPlaceSearch;
+			productName = LocalPlaceSearch;
+			productReference = 22EBF9A216AD1BE5003B1677 /* LocalPlaceSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22EBF99916AD1BE5003B1677 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Naveen Shan";
+			};
+			buildConfigurationList = 22EBF99C16AD1BE5003B1677 /* Build configuration list for PBXProject "LocalPlaceSearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22EBF99716AD1BE5003B1677;
+			productRefGroup = 22EBF9A316AD1BE5003B1677 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22EBF9A116AD1BE5003B1677 /* LocalPlaceSearch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22EBF9A016AD1BE5003B1677 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22EBF9B116AD1BE5003B1677 /* InfoPlist.strings in Resources */,
+				22EBF9B916AD1BE5003B1677 /* Default.png in Resources */,
+				22EBF9BB16AD1BE5003B1677 /* Default@2x.png in Resources */,
+				22EBF9BD16AD1BE5003B1677 /* Default-568h@2x.png in Resources */,
+				22EBF9C316AD1BE5003B1677 /* ViewController_iPhone.xib in Resources */,
+				22EBF9C616AD1BE5003B1677 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22EBF99E16AD1BE5003B1677 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22EBF9B316AD1BE5003B1677 /* main.m in Sources */,
+				22EBF9B716AD1BE5003B1677 /* AppDelegate.m in Sources */,
+				22EBF9C016AD1BE5003B1677 /* ViewController.m in Sources */,
+				22EBF9E516AD36F6003B1677 /* GoogleLocationService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22EBF9AF16AD1BE5003B1677 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22EBF9B016AD1BE5003B1677 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		22EBF9C116AD1BE5003B1677 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22EBF9C216AD1BE5003B1677 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		22EBF9C416AD1BE5003B1677 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22EBF9C516AD1BE5003B1677 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22EBF9C716AD1BE5003B1677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22EBF9C816AD1BE5003B1677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22EBF9CA16AD1BE5003B1677 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocalPlaceSearch/LocalPlaceSearch-Prefix.pch";
+				INFOPLIST_FILE = "LocalPlaceSearch/LocalPlaceSearch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22EBF9CB16AD1BE5003B1677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LocalPlaceSearch/LocalPlaceSearch-Prefix.pch";
+				INFOPLIST_FILE = "LocalPlaceSearch/LocalPlaceSearch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22EBF99C16AD1BE5003B1677 /* Build configuration list for PBXProject "LocalPlaceSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22EBF9C716AD1BE5003B1677 /* Debug */,
+				22EBF9C816AD1BE5003B1677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22EBF9C916AD1BE5003B1677 /* Build configuration list for PBXNativeTarget "LocalPlaceSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22EBF9CA16AD1BE5003B1677 /* Debug */,
+				22EBF9CB16AD1BE5003B1677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22EBF99916AD1BE5003B1677 /* Project object */;
+}
